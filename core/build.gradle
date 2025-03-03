@@ -4,6 +4,9 @@ plugins {
 
 dependencies {
     implementation 'org.scala-lang:scala3-library_3:3.6.3'
+    implementation 'com.softwaremill.sttp.client3:core_3:3.10.3'
+    implementation 'com.softwaremill.sttp.client3:upickle_3:3.10.3'
+    implementation 'com.lihaoyi:upickle_3:4.1.0'
     testImplementation 'org.scalatest:scalatest_3:3.2.19'
     testImplementation 'junit:junit:4.13.1'
 }
